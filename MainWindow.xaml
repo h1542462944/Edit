@@ -1,0 +1,59 @@
+﻿<Window x:Class="Edit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Edit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="493.865" Width="702.147" SizeChanged="MainWindow_SizeChanged">
+    <Grid x:Name="GridMain">
+        <RichTextBox x:Name="Rtx1" HorizontalAlignment="Left" Height="143" VerticalAlignment="Top" Width="127" Margin="0,93,0,0" TextChanged="Rtx_TextChanged" >
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox x:Name="Rtx6" HorizontalAlignment="Left" Height="154" VerticalAlignment="Top" Width="120" Margin="251,236,0,0" TextChanged="Rtx_TextChanged">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox x:Name="Rtx4" HorizontalAlignment="Left" Height="154" VerticalAlignment="Top" Width="124" Margin="127,236,0,0" TextChanged="Rtx_TextChanged">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox x:Name="Rtx5" HorizontalAlignment="Left" Height="143" VerticalAlignment="Top" Width="120" Margin="251,93,0,0" TextChanged="Rtx_TextChanged">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox x:Name="Rtx2" HorizontalAlignment="Left" Height="154" VerticalAlignment="Top" Width="127" Margin="0,236,0,0" TextChanged="Rtx_TextChanged">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox x:Name="Rtx3" HorizontalAlignment="Left" Height="143" VerticalAlignment="Top" Width="124" Margin="127,93,0,0" TextChanged="Rtx_TextChanged" >
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Ellipse x:Name="Elp1" HorizontalAlignment="Left" Height="12" Margin="427,251,0,0" Stroke="#FF2340F7" VerticalAlignment="Top" Width="12" Fill="#B2F06A1E" MouseDown="Elp_MouseDown" MouseUp="Elp_MouseUp"/>
+        <Ellipse x:Name="Elp2" HorizontalAlignment="Left" Height="12" Margin="452,251,0,0" Stroke="#FF2340F7" VerticalAlignment="Top" Width="12" Fill="#B2F06A1E" MouseDown="Elp_MouseDown" MouseUp="Elp_MouseUp"/>
+        <Ellipse x:Name="Elp4" HorizontalAlignment="Left" Height="12" Margin="452,288,0,0" Stroke="#FF2340F7" VerticalAlignment="Top" Width="12" Fill="#B269F3ED" MouseDown="Elp_MouseDown" MouseUp="Elp_MouseUp"/>
+        <Ellipse x:Name="Elp5" HorizontalAlignment="Left" Height="12" Margin="427,322,0,0" Stroke="#FF2340F7" VerticalAlignment="Top" Width="12" Fill="#B269F3ED" MouseDown="Elp_MouseDown" MouseUp="Elp_MouseUp"/>
+        <Ellipse x:Name="Elp6" HorizontalAlignment="Left" Height="12" Margin="452,322,0,0" Stroke="#FF2340F7" VerticalAlignment="Top" Width="12" Fill="#B269F3ED" MouseDown="Elp_MouseDown" MouseUp="Elp_MouseUp"/>
+
+    </Grid>
+</Window>
